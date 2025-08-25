@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Twitter, Mail, Dribbble } from 'lucide-react';
+import { Github, Mail } from 'lucide-react';
 import './home.css';
 
 interface SocialLink {
