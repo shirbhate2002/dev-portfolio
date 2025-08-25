@@ -1,6 +1,7 @@
 import React from 'react';
 import { Github, Mail } from 'lucide-react';
 import './home.css';
+import avatar from '/profile.jpg';
 
 interface SocialLink {
   icon: React.ReactNode;
@@ -40,7 +41,7 @@ const Portfolio: React.FC = () => {
           <div className="decorative-line"></div>
           <div className="profile-image-wrapper">
                 <img 
-                  src="/public/profile.jpg" 
+                  src={avatar} 
                   alt="Vaidilya Shirbhate"
                   className="profile-image"
                 />
